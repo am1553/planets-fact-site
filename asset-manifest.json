@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/planets-fact-site/static/css/main.95f3d73a.css",
+    "main.js": "/planets-fact-site/static/js/main.bda84799.js",
+    "index.html": "/planets-fact-site/index.html",
+    "main.95f3d73a.css.map": "/planets-fact-site/static/css/main.95f3d73a.css.map",
+    "main.bda84799.js.map": "/planets-fact-site/static/js/main.bda84799.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.95f3d73a.css",
+    "static/js/main.bda84799.js"
+  ]
+}

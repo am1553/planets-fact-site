@@ -8,6 +8,12 @@
 body {
   width: 100%;
   min-height: 100vh;
+  background-color: #070724;
+  color: #fff;
+}
+
+body img {
+  display: block;
 }
 
 h1,
@@ -59,5 +65,107 @@ h4 {
   font-size: 0.875rem;
   font-weight: 700;
   line-height: 1.5625rem;
+}
+
+.header {
+  width: 100%;
+  height: 5rem;
+  padding: 0 1rem;
+  border-bottom: 1px solid #838391;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header button {
+  background-color: transparent;
+  border: none;
+}
+
+.header button .active {
+  opacity: 0.4;
+}
+
+.header .nav-panel {
+  position: absolute;
+  top: 5rem;
+  left: 0;
+  right: 0;
+  padding: 2rem 0;
+}
+
+.header .nav-planet {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem 1rem;
+  border-bottom: 1px solid rgba(131, 131, 145, 0.4);
+}
+
+.header .nav-planet .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .nav-planet .left h4 {
+  margin-left: 1rem;
+  text-transform: uppercase;
+}
+
+.header .circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.header .mercury {
+  background-color: #def4fc;
+}
+
+.header .venus {
+  background-color: #eda249;
+}
+
+.header .earth {
+  background-color: #6f2ed6;
+}
+
+.header .mars {
+  background-color: #d14c32;
+}
+
+.header .jupiter {
+  background-color: #ecad7a;
+}
+
+.header .saturn {
+  background-color: #eda249;
+}
+
+.header .uranus {
+  background-color: #1ec2a4;
+}
+
+.header .neptune {
+  background-color: #2d68f0;
 }
 /*# sourceMappingURL=index.css.map */

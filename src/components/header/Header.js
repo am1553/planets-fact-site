@@ -1,13 +1,19 @@
-import React from 'react'
-
+import React, {useState} from 'react'
+import "../../styles/index.css"
+import Navigation from './Navigation'
 
 function Header() {
+
+    const [open, setOpen] = useState(false)
+
     return (
-        <div>
+        <div className='header'>
             <div className="logo">
                 <span>The Planets</span>
             </div>
-            <div className="nav-bar"></div>
+
+            <Navigation />
+            
         </div>
     )
 }
